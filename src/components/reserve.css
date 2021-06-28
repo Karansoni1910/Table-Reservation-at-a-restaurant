@@ -1,0 +1,40 @@
+.reserve{
+    
+    background-image: url("../images/3014622.jpg");
+    margin-top: 5px;
+    position:inherit;
+    background-size:cover;
+}
+
+.title{
+    position: relative;
+    background-color:transparent;
+    background-size: contain;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    /* color: rgba(224, 67, 5, 0.658); */
+    text-align: center;
+    /* opacity: 0.9; */
+    width: fit-content;
+    box-shadow: 5px 5px black;
+    left: 43%;
+    cursor: pointer;
+    padding-top: 0.3em;
+    /*padding-bottom: 1em; */
+}
+.title:hover{
+    border-style:solid;
+    border-color: aliceblue;
+}
+
+h4{
+    border-color: rgba(224, 67, 5, 0.658);
+    color: black;
+}
+
+.confirm{
+    justify-content: center;
+    text-align: center;
+    
+}

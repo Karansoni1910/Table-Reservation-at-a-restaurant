@@ -1,0 +1,75 @@
+.tables{
+    margin-top: 2%;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas:inherit;
+    grid-gap: 5em;
+    margin-bottom: 4%;
+}
+
+.background{
+    position: relative;
+    background-image: url("../images/din-table.png");
+    background-size:contain;
+    width: fit-content;
+    height: 160px;
+    /* border: 2px solid rgb(133, 90, 55); */
+    /* border-style:dotted ; */
+    /* box-shadow: 5px 5px black; */
+    /* border-radius: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.table{
+    position: inherit;
+    margin-top: 2ex;
+    border: 2px solid rgb(133, 90, 55);
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: dashed;
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+    /* opacity: 0.18; */
+}
+
+.table.clicked{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 43, 43) */
+    /* mask-image: url("../images/tick.png"); */
+    box-shadow: 5px 5px white;
+}
+
+.table:hover{
+    border-style:solid ;
+    border-color: aliceblue;
+}
+
+
+.button{
+    position: relative;
+    background-color: transparent;
+    border-color: rgb(250, 250, 250);
+    border-style: dashed;
+    box-shadow: 2px 2px;
+    size: 200%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+.button:hover{
+    border-style: solid;
+    border-color: aliceblue;
+}
